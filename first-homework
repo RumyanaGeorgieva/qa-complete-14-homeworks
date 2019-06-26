@@ -1,0 +1,167 @@
+First Exercise
+
+
+1.
+Title: User can add blank group name
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 3
+Priority: 3
+
+ER: Error message if blank group name is submitted
+AR: Blank group name are accepted
+
+Steps to reproduce:
+1. Navigate to Pragmatic.bg and log in | Homepage is loaded
+2. Click on Users > Groups > Add | Page with "Name" field for completion is loaded
+3. Enter blank group name and click on "Save" button | The group should be successfully created
+
+.
+.
+.
+2.
+Title: Group names can contain html code in Structures setup module
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 1
+Priority: 3
+
+ER: Error message if html code is submitted
+AR: Group names are successfully submitted with html code 
+
+Steps to reproduce:
+1. Navigate to Pragmatic.bg and log in | Homepage is loaded
+2. Click on Structures setup > Locations > Add | Page with "Name", "Timezone" etc. with fields for completion is loaded
+3. Enter "<b> Alex" group name and click on "Save" button | The group should be successfully created
+.
+.
+.
+3.
+Title: Table columns out of main page area
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 4
+Priority: 4
+
+ER: Scanners and Manage columns to be in main page
+AR: Scanners and Manage columns out of main page
+
+Steps to reproduce:
+1. Navigate to Pragmatic.bg and log in | Homepage is loaded
+2. Click on Structures setup > Locations | Main page is loaded with the columns out of it
+.
+.
+.
+4.
+Title: You can set the same names and urls in Camera module over and over again
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 3
+Priority: 2
+
+ER: Unique configurations to be submitted only
+AR: The configurations with fields "Name" and "Url" can be with equal names, no restrictions 
+
+Steps to reproduce:
+1. Navigate to Pragmatic.bg and log in | Homepage is loaded
+2. Click on Camera > Configuration > Add | Page with fields "Name" and "Url" for completion is opened
+3. Enter "test" in Name field and "http://pragmatic.bg" in Url field, then click on "Save" button | "The data has been saved" message is displyed
+4. Repeat step 3 | The same message should be displayed 
+
+Second Exercise
+
+1.
+Title: User can search blank in "Last name" search field
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 4
+Priority: 4
+
+ER: Error message if blank 
+AR: User can find every owner if it's blank
+
+Steps to reproduce:
+1. Start Petclinic application| Homepage is loaded
+2. Click on Find Owners > Find Owner | Page with all owners listed is opened
+
+.
+.
+.
+
+2.
+Title: PDF button is next to search field instead of search button
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 4
+Priority: 4
+
+ER: Button for searching instead against search field
+AR: PDF button against search field
+
+Steps to reproduce:
+1. Start Petclinic application| Homepage is loaded
+2. Click on Find Owners > Find Owner | Page with all owners listed is opened
+3. Click on PDF button against search field | Export is downloaded
+
+.
+.
+.
+
+3.
+Title: Dates in the future can be added
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 2
+Priority: 3
+
+ER: Can't add dates in the future in Visit Date 
+AR: Can add dates in the future in Visit Date
+
+Steps to reproduce:
+1. Start Petclinic application| Homepage is loaded
+2. Click on Find Owners > Find Owner | Page with all owners listed is opened
+3. Click on Betty Davis | Page with Owner information is opened 
+4. Click on blue link Add Visit, write date in the future in date field, add description in description field | Visit Date is created with date in the future
+
+.
+.
+.
+
+4.
+Title: No Search button in Veterinarians section
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 3
+Priority: 3
+
+ER: Search button against Search field
+AR: No Search button against Search field
+
+Steps to reproduce:
+1. Start Petclinic application| Homepage is loaded
+2. Click on Veterinarians | Page with all Veterinarians listed is opened and no button against Search field
+
+
+.
+.
+.
+
+5.
+Title: User can add Owner only with numbers
+Enviroment: Chrome, Firefox, IE
+Version:
+Severity: 3
+Priority: 3
+
+ER: Can't add Owner only with numbers
+AR: Can add Owner only with numbers, no restrictions
+
+1. Start Petclinic application| Homepage is loaded
+2. Click on Find Owners > Find Owner | Page with all owners listed is opened
+3. Click on blue link Add Owner | Page for creation New Owner is opened
+4. Complete all fields with "1", then click on Add Owner button | Owner is created successfully
+
+
+.
+.
+.
