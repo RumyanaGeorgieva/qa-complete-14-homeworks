@@ -1,0 +1,50 @@
+First task:
+
+Title: User can create Group Name only with spaces
+Priority: 3
+Component: Groups Add
+Description/Purpose: To check that user can add Group Name with spaces only
+Steps:
+1. Navigate to home page | Homepage is loaded
+2. Click on Users > Groups > Add | Add group page is loaded, with field "Name" 
+3. Enter only spaces, click on Save button | "The data has been saved" confirmation message is displayed
+
+.
+.
+.
+
+Title: User can enter html code in Structures setup section
+Priority: 1
+Component: Structures setup
+Description/Purpose: To check that user can enter html code in Structures setup section
+Steps:
+1. Navigate to home page | Homepage is loaded
+2. Click on Structures setup > Locations > Add | Add locations page is loaded, with fields for completion ("Name", "Timezone" etc.)
+3. Enter <b>Alex in Name field, click on Save button | "The data has been saved" confirmation message is displayed
+
+.
+.
+.
+
+Title: Table in Structures setup is out of main page 
+Priority: 4
+Component: Locations table
+Description/Purpose: To check that table in Locations section is out of main page
+Steps:
+1. Navigate to home page | Homepage is loaded
+2. Click on Structures setup > Locations | Page with table is loaded, Scanners and Manage sections are out of main page
+
+.
+.
+.
+
+Title: User can add already existing "Name" and "Url" in Camera section
+Priority: 2
+Component: Camera
+Description/Purpose: To check user can add already existing "Name" and "Url" in Camera section
+Steps:
+1. Navigate to home page | Homepage is loaded
+2. Click on Camera > Configuration > Add | Page with fields "Name" and "Url" for completion is loaded
+3. Enter "test" in "Name" field and "http://pragmatic.bg" in Url field, then click on Save button | "The data has been saved" confirmation message is displayed
+4. Reapeat step 3, then click on Back button | "The data has been saved" confirmation message is displayed again after clicking on Back button, second record is added
+
